@@ -37,6 +37,15 @@ module.exports = {
           /node_modules/, /spec/
         ],
         loader: "eslint-loader"
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {}
+          }
+        ]
       }
     ]
   }

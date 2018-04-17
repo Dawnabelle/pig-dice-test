@@ -1,7 +1,8 @@
 #player-2{
   display:none;
 }
-body{
+body {
+  background-image: url(./img/pig.jpg);
   background-repeat: no-repeat;
   background-position: center left;
 }
